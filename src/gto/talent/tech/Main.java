@@ -1,2 +1,11 @@
-package gto.talent.tech;public class Main {
+package gto.talent.tech;
+
+import gto.talent.tech.cars.F1WilliamsCar;
+
+public class Main {
+    public static void main(String[] args) {
+        F1WilliamsCar car = new F1WilliamsCar();
+        car.setColor("blue");
+        System.out.println("Car: " + car.toString());
+    }
 }
